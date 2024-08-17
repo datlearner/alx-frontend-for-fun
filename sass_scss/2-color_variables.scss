@@ -1,0 +1,18 @@
+/* 2-color_variables.scss */
+/* Colors */
+
+$myTextColor: #3D3D3D;
+$myBackgroundColor: #6D6D6D;
+
+body {
+  color: $myTextColor;
+  background-color: $myBackgroundColor;
+}
+
+p {
+  color: $myTextColor;
+}
+
+h2 {
+  background-color: $myBackgroundColor;
+}
