@@ -1,7 +1,5 @@
 $list_to_sort: john, anna, zoe, kim, felicia, carrie;
 
-// Sort the list
 $list_sorted: sort($list_to_sort);
 
-// Print the sorted list using debug
 @debug $list_sorted;
