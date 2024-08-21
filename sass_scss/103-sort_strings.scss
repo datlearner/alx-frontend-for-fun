@@ -1,5 +1,7 @@
-/* Sorts the variable $list_to_sort and prints the sorted list in the debug output */
+$list_to_sort: john, anna, zoe, kim, felicia, carrie;
 
-@import '103-sort_list';
+// Sort the list
+$list_sorted: sort($list_to_sort);
 
-@debug $list_to_sort;
+// Print the sorted list using debug
+@debug $list_sorted;
